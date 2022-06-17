@@ -55,3 +55,13 @@ function addThree2(){
 
 }
 
+function startOver(){
+
+    count=0;
+
+    count2=0;
+
+    elementGrabber.textContent = count;
+    
+    guest.textContent = count2;
+}
