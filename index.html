@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Game Board</title>
     <link rel="stylesheet" href="styleSheet/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   </head>
   <body>
@@ -12,11 +15,18 @@
         <div class="row">
           <div class="col">
             <h1 class="board-title-home">HOME</h1>
-            <p class = "home-points-text">0</p>
+            <p id="myId" class = "home-points-text">0</p>
+            <button onclick="addOne()" type="button" class="btn btn-warning">+1</button>
+            <button onclick="addTwo()" type="button" class="btn btn-warning">+2</button>
+            <button onclick="addThree()" type="button" class="btn btn-warning">+3</button>
           </div>
           <div class="col">
             <h1 class="board-title-home">GUEST</h1>
-            <p class = "home-points-text">0</p>
+            <p id="myId2" class = "home-points-text">0</p>
+            <button onclick="addOne2()" type="button" class="btn btn-warning">+1</button>
+            <button onclick="addTwo2()" type="button" class="btn btn-warning">+2</button>
+            <button onclick="addThree2()" type="button" class="btn btn-warning">+3</button>
+            <script src="jsFolder/app.js"></script>
           </div>
         </div>
       </div>
