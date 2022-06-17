@@ -1,0 +1,47 @@
+/* board-title-home */
+
+.board-title-home
+{
+position: relative;
+width: 149px;
+height: 36px;
+left: 85px;
+top: 68px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+/* identical to box height, or 90% */
+text-align: center;
+color: #EEEEEE;
+}
+
+.home-points-text{
+position: relative;
+width: 117px;
+height: 120px;
+left: 100px;
+top: 125px;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Work Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+/* or 141% */
+text-align: center;
+color: #F94F6D;
+background-color: black;
+
+}
+
+
+body{
+background: rgb(32,42,68) !important;
+/* to override bootstrap components use the !important*/
+}
+
